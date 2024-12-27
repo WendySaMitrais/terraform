@@ -32,8 +32,6 @@ jobs:
           path: tflint-output.json
         if: always()                        # what is this for?
 
-To understand if: always() Please refer to conditionals.
-
   test:
     runs-on: ubuntu-20.04
     needs: build
