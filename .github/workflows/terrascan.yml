@@ -1,4 +1,4 @@
-name: Terraform                               # workflow name
+name: Terraform-Terrascan Demo                # workflow name
 
 on:
   push:                                       
